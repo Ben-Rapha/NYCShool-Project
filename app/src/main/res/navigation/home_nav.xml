@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/nycSchoolsFragment2">
+
+    <fragment
+        android:id="@+id/nycSchoolsFragment2"
+        android:name="com.otto.nycschools.UI.NycSchoolsFragment"
+        android:label="NycSchoolsFragment" >
+        <action
+            android:id="@+id/action_nycSchoolsFragment2_to_displayScoresFragment2"
+            app:destination="@id/displayScoresFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/displayScoresFragment2"
+        android:name="com.otto.nycschools.UI.DisplayScoresFragment"
+        android:label="display_scores_fragment"
+        tools:layout="@layout/display_scores_fragment" />
+</navigation>

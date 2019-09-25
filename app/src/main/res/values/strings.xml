@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NYC Schools</string>
+    <string name="nyc_schools">NYC Schools</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="school_name">school name</string>
+    <string name="average_scores">Average Scores</string>
+    <string name="reading_average">reading average</string>
+    <string name="math_average">Math average</string>
+    <string name="writing_average">Writing average</string>
+    <string name="no_scores">Sorry no scores were found for this school</string>
+    <string name="hold_up_while_we_load_up_schools">Hold up while we load up schools</string>
+    <string name="connect_device">Please connect your device to the internet</string>
+</resources>
